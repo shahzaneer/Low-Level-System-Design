@@ -1,0 +1,3 @@
+class MyDBConnection{
+  void connect(){}
+}

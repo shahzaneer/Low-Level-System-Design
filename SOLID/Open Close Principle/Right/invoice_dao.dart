@@ -1,4 +1,4 @@
-import '../../Single Responsibility/Wrong/invoice.dart';
+import '../../Single Responsibility principle/Right/invoice.dart';
 
 abstract class Dao {
   Invoice _invoice;
