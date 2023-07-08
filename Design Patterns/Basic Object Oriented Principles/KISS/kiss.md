@@ -9,3 +9,6 @@
 - `Don’t use unnecessary variables and methods`,
 - use names for variables and methods that makes `sense` and matches their `responsibilities`, and always when it’s possible, follow know standards of code development.
 - You also should separate the responsibilities of your classes and the responsibilities from the layers of the project.
+
+- Aik cheez simple tareekay se hoskti hai tou usko simple tareekay se karen
+- Simple solution is seldom the shortest one.
