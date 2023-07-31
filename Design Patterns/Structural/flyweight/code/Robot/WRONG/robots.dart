@@ -7,9 +7,9 @@ class RobotSprite implements Sprite {}
 class Robot {
   int xCoordinate; // 4 Bytes
   int yCoordinate; //4 Bytes
-  String type;    //8 bytes (let us consider 8 characters each of one byte)
+  String type; //8 bytes (let us consider 8 characters each of one byte)
   Sprite sprite; // 30 kB object (heavy tbh)
-  
+
   Robot({
     required this.xCoordinate,
     required this.yCoordinate,
@@ -36,3 +36,4 @@ void main(List<String> args) {
   }
 }
 
+// So Expensive Operations
