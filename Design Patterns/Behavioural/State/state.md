@@ -6,4 +6,9 @@
 - In State pattern, we create `objects which represent various states` and a `context object whose behavior varies as its state object changes.`
 - Vending Machine is a very good example of State Design pattern.
 - In this pattern a state interface is made where all the action of the system are listed.
-- Then we create concrete implementation of these specific state, we return an exception or default behaviour for those actions which are not intended for that specific implementation and the intended ones are implemented as they should be implemented.
+- Then we create concrete implementation of these specific state, we return an `exception` or `default behaviour` for those actions which are not intended for that specific implementation and the intended ones are implemented as they should be implemented.
+
+## Caution
+
+- Stat Design Pattern violates the `interface segregation` principle.
+- So there are tradeoffs in which you decide to go with it or with `interface segregation principle` each provide its own design benefits.
