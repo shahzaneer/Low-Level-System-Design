@@ -1,0 +1,16 @@
+# ❌ Overkill pipeline – preparing for all the edge cases:
+
+# CI pipeline with 7 matrix builds for platforms you don’t support (yet)
+strategy:
+  matrix:
+    os: [ubuntu-latest, windows-latest, macos-latest, solaris, beos, minix, haiku]
+
+#!Bro… your app only runs on Ubuntu 😅
+
+# ✅ YAGNI pipeline – keep it real, keep it lean:
+strategy:
+  matrix:
+    os: [ubuntu-latest]
+
+#! When the need arises, expand. Until then — stay focused, stay fast. 🚀
+
