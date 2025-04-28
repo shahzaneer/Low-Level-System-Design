@@ -1,0 +1,21 @@
+# 🔵 Wrong Way – DevOps Inheritance Overkill ❌
+
+# CI/CD pipeline that hardcodes steps into one giant template
+steps:
+  - name: Build
+    run: build.sh
+  - name: Test
+    run: test.sh
+  - name: Deploy
+    run: deploy.sh
+
+# 🟢 Right Way – DevOps Composition ✅
+
+# Each job is a small, reusable action
+jobs:
+  build:
+    uses: ./actions/build
+  test:
+    uses: ./actions/test
+  deploy:
+    uses: ./actions/deploy
